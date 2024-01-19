@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: gilroy;
+}
+html,body {
+width: 100%;
+height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(111, 165, 134);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#main #box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+}
+
+#main button{
+    padding: 12px 24px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(3, 80, 91);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tri{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.rho{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.circle{
+    clip-path: circle(50% at 50% 50%);
+}
+
+.hex{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+/* .square{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+} */
